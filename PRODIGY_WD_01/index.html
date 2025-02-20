@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Songs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/BG2.jpg" alt="Game 1">
+                    <img src="assets/backgrounds/BG4.jpg" alt="Game 2">
+                    <img src="assets/backgrounds/BG3.jpg" alt="Game 3">
+                    <img src="assets/backgrounds/BG1.jpg" alt="Game 4">
+                    <img src="assets/backgrounds/BG5.jpg" alt="Game 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">SONGS</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>Thoomanju</h2>
+                    <img src="assets/gamess/S1.jpg" alt="Call of Duty" class="game-image" data-img-src="S1.jpg">
+                    <p>18am Padi Video Song 
+                        Uploaded: Jul 12, 2019
+                        Presenting you the Video Song of #Thoomanju Song From the Malayalam Movie #18amPadi, Song : Thoomanju Veena Vazhiye, Lyrics : Lawrence Fernandez, Music Composed by Prasanth Prabhakar, Singer : Vijay Yesudas.</p>
+                </div>
+                <div class="game-block">
+                    <h2>A P T.</h2>
+                    <img src="assets/gamess/S2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="S2.jpg">
+                    <p>"Apt." was written by Rosé, Amy Allen, Brody Brown, Philip Lawrence, Theron Thomas of R. City, Rogét Chahayed, Omer Fedi, Cirkut, and Mars,
+                        Released: 2024
+                       Artists: Rosé, Bruno Mars
+                       Album: Rosie
+                       Genre: K-Pop</p>
+                </div>
+                <div class="game-block">
+                    <h2>Naan Adicha Thaanga</h2>
+                    <img src="assets/gamess/S3.jpg" alt="Dead by Daylight" class="game-image" data-img-src="S3.jpg">
+                    <p>Vettaikaaran (Original Motion Picture Soundtrack) MP3 Songs, Ananthu, Mahesh Vinayakram, Krish Songs
+                        Shankar Mahadevan
+                        Released on
+                        Sep 24, 2009
+                        Language : Tamil</p>
+                </div>
+                <div class="game-block">
+                    <h2>Senorita</h2>
+                    <img src="assets/gamess/S4.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="S4.jpg">
+                    <p>Senorita Song from the Zindagi Na Milegi Dobara album is voiced by famous singer Farhan Akhtar, Hrithik Roshan, Abhay Deol, Maria Del Mar Bonet. The lyrics of Senorita Song from Zindagi Na Milegi Dobara album are written by Javed Akhtar.
+                       Released on : Jun 06, 2011
+                       Duration : 03:49
+                       Language : Hindi </p>
+                </div>
+                <div class="game-block">
+                    <h2>PERFECT</h2>
+                    <img src="assets/gamess/S5.jpg" alt="Once Human" class="game-image" data-img-src="S5.jpg">
+                    <p>Released	26 September 2017
+                        Genre : Pop, soft rock
+                        Length : 4:23
+                        Label : AsylumAtlantic
+                        Songwriter(s) : Ed Sheeran
+                        Producer(s)	: Ed SheeranWill Hicks</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/fathimamariyam2503/" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/F-Mariyam" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
